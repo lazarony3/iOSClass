@@ -14,6 +14,10 @@
 		2D8E2A9B1DD142D100745409 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D8E2A991DD142D100745409 /* LaunchScreen.storyboard */; };
 		2D8E2AA61DD142D100745409 /* HelloWorldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D8E2AA51DD142D100745409 /* HelloWorldTests.swift */; };
 		2D8E2AB11DD142D100745409 /* HelloWorldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D8E2AB01DD142D100745409 /* HelloWorldUITests.swift */; };
+		2D95F19E1DE2850F00BB49AD /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D95F19D1DE2850F00BB49AD /* MoviesViewController.swift */; };
+		2D95F1A21DE3264F00BB49AD /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D95F1A11DE3264F00BB49AD /* CustomCell.swift */; };
+		2D95F1A41DE32C1100BB49AD /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D95F1A31DE32C1100BB49AD /* MovieDetailsViewController.swift */; };
+		2DC079CC1DDA8B08000B6F36 /* ThemingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC079CB1DDA8B08000B6F36 /* ThemingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		2D8E2AAC1DD142D100745409 /* HelloWorldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloWorldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D8E2AB01DD142D100745409 /* HelloWorldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorldUITests.swift; sourceTree = "<group>"; };
 		2D8E2AB21DD142D100745409 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D95F19D1DE2850F00BB49AD /* MoviesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
+		2D95F1A11DE3264F00BB49AD /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		2D95F1A31DE32C1100BB49AD /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
+		2DC079CB1DDA8B08000B6F36 /* ThemingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +107,14 @@
 			children = (
 				2D8E2A901DD142D100745409 /* AppDelegate.swift */,
 				2D8E2A921DD142D100745409 /* ViewController.swift */,
+				2DC079CB1DDA8B08000B6F36 /* ThemingViewController.swift */,
 				2D8E2A941DD142D100745409 /* Main.storyboard */,
 				2D8E2A971DD142D100745409 /* Assets.xcassets */,
 				2D8E2A991DD142D100745409 /* LaunchScreen.storyboard */,
 				2D8E2A9C1DD142D100745409 /* Info.plist */,
+				2D95F19D1DE2850F00BB49AD /* MoviesViewController.swift */,
+				2D95F1A11DE3264F00BB49AD /* CustomCell.swift */,
+				2D95F1A31DE32C1100BB49AD /* MovieDetailsViewController.swift */,
 			);
 			path = HelloWorld;
 			sourceTree = "<group>";
@@ -259,8 +271,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D95F19E1DE2850F00BB49AD /* MoviesViewController.swift in Sources */,
 				2D8E2A931DD142D100745409 /* ViewController.swift in Sources */,
+				2D95F1A41DE32C1100BB49AD /* MovieDetailsViewController.swift in Sources */,
+				2DC079CC1DDA8B08000B6F36 /* ThemingViewController.swift in Sources */,
 				2D8E2A911DD142D100745409 /* AppDelegate.swift in Sources */,
+				2D95F1A21DE3264F00BB49AD /* CustomCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,6 +521,7 @@
 				2D8E2AB71DD142D100745409 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2D8E2AB81DD142D100745409 /* Build configuration list for PBXNativeTarget "HelloWorldTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +530,7 @@
 				2D8E2ABA1DD142D100745409 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2D8E2ABB1DD142D100745409 /* Build configuration list for PBXNativeTarget "HelloWorldUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +539,7 @@
 				2D8E2ABD1DD142D100745409 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

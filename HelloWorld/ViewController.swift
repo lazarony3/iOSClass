@@ -20,8 +20,18 @@ class ViewController: UIViewController {
         let upper: UInt32 = UInt32(upperBoundFeild.text!)!
         let lower: UInt32 = UInt32(lowerBoundFeild.text!)!
         let rand: String? = String(arc4random_uniform(upper - lower) + lower)
+        
+        //best from class
+//        gaurd let() lower = startField?.text?.integer, let upper = endField?.text?.integer else {
+//        showErrorAlert()
+//        return
+//    }
 
         result.text = "Result: " + rand!
+    }
+    
+    @IBAction func dismissKeyboard() {
+        view.endEditing(true)
     }
     
     override func viewDidLoad() {
@@ -38,4 +48,3 @@ class ViewController: UIViewController {
 
 
 }
-
